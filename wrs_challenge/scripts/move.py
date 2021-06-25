@@ -43,6 +43,7 @@ if __name__=='__main__':
         rospy.logerr('fail to grasp')
         sys.exit()
 
+
     try:
         # 移動姿勢
         utils.move_arm_init()
